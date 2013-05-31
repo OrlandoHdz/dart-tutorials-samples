@@ -1,0 +1,24 @@
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/hangman.html","to":"web/out/hangman.html"}}]
+Total time spent on web/hangman.html                         -- 393 ms
+Total time                                                   -- 425 ms
+build.dart finished [687 ms]
+
+---
+build.dart --machine --changed=web/out/hangman.css --changed=web/out/hangman.dart --changed=web/out/hangman.dar...
+Total time                                                   --  42 ms
+build.dart finished [390 ms]
+
+---
+build.dart --machine --changed=web/hangman.dart
+[{"method":"mapping","params":{"from":"web/hangman.html","to":"web/out/hangman.html"}}]
+Total time spent on web/hangman.html                         -- 414 ms
+Total time                                                   -- 447 ms
+build.dart finished [712 ms]
+
+---
+build.dart --machine --changed=web/out/hangman.css --changed=web/out/hangman.dart --changed=web/out/hangman.dar...
+Total time                                                   --  26 ms
+build.dart finished [293 ms]
+
